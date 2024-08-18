@@ -12,12 +12,12 @@ int main() {
         if (!buttonDown) {
             ledon = !ledon; 
              buttonDown = true; 
-            wait_us(10);
+            wait_us(100);
             }
         } else {
             buttonDown = false;
             ledoff = !ledoff; 
-            wait_us(10);
+            wait_us(100);
         }
     }
 }
